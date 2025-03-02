@@ -231,7 +231,7 @@ return (
          {/* Landing Page Section */}
 <div id="landing-page">
          <NewFullScreenVideo2
-           videoSrc="/Assets/docs.mp4"
+           videoSrc="/docs.mp4"
            mobileVideoSrc="/Assets/vertical-intro.mp4"
            posterImage="https://via.placeholder.com/1920x1080"
            className="fullscreen-video"
