@@ -1,0 +1,173 @@
+{
+    "heading": "Diş sağlığınızı <br />öncelik haline getirelim!",
+    "book_appointment": "Randevu Alın",
+    "navbar": {
+    "home": "Ana Sayfa",
+    "services": "Hizmetler",
+    "team": "Takım",
+    "appointment": "Randevu"
+  },
+  "services": {
+    "title": "Hizmetlerimiz",
+    "cards": {
+      "anxiety": "Kaygılı Hastalar",
+      "surgery": "Ağız Cerrahisi",
+      "veneers": "Kaplamalar",
+      "root_canal": "Kanal Tedavisi",
+      "invisalign": "Şeffaf Plak (Invisalign)"
+    }
+  },
+  "services-mobile": {
+    "title": "Hizmetlerimiz",
+    "cards": {
+      "anxiety": "Kaygılı Hastalar",
+      "surgery": "Ağız Cerrahisi",
+      "veneers": "Kaplamalar",
+      "root_canal": "Kanal Tedavisi",
+      "invisalign": "Şeffaf Plak (Invisalign)",
+      "invisalign2": "Şeffaf Plak (Invisalign)"
+
+    }
+  },
+  
+    "sticky_services": {
+      "sections": {
+        "elite_smile": {
+          "title": "Elit Gülüş Tasarımı",
+          "description": "Düzgün hizalanmış, parlak beyaz dişler. Veneerler, kronlar ve diş beyazlatma gibi ileri teknikler kullanılarak doğal görünümlü, kusursuz bir gülümseme oluşturulur—tam olarak ünlülerin gülüşü gibi!"
+        },
+        "next_gen": {
+          "title": "Yeni Nesil Diş Hekimliği Teknolojisi",
+          "description": "3D tarama, lazer diş hekimliği ve dijital görüntüleme gibi en son teknolojileri sunarak hassas, ağrısız ve verimli bir diş bakımı sağlıyoruz."
+        },
+        "smile_sparkle": {
+          "title": "Gülüş Işıltısı",
+          "description": "Kişiye özel tasarlanmış diş mücevherlerimizle gülüşünüze zarif bir dokunuş katın—hafif bir parlaklık ve benzersiz bir çekicilik sağlayın."
+        }
+      }
+    },"doctors": {
+    "title": "Doktorlarımız",
+    "subtitle": "Hasta Görüşleri ve Değerlendirmeler",
+    "list": {
+      "fabian": {
+        "name": "Fabian Badour",
+        "description": "Fabian cerrahi, implantoloji, protez ve ön diş estetiği alanlarında uzmanlaşmıştır. Ayrıca kaygılı hastaları tedavi eder ve Arapça, İngilizce ve Almanca dillerinde danışmanlık hizmeti sunar."
+      },
+      "hakam": {
+        "name": "Hakam El Daghma",
+        "description": "Hakam çeşitli diş hekimliği alanlarında uzmandır ve özellikle mikroskobik kanal tedavisi, protezler ve ön diş estetiği üzerine çalışmaktadır. Kaygılı hastalara duyarlı bir bakım sunar ve Almanca, İngilizce ve Arapça konuşur."
+      },
+      "prabh": {
+        "name": "Prabh Singh Mahal",
+        "description": "Prabh cerrahi, implantoloji, protez ve ön diş estetiği alanlarında uzmanlaşmıştır. Kaygılı hastalarla ilgilenir ve Pencapça, Hintçe, Urduca, İngilizce ve Almanca dillerinde danışmanlık hizmeti sunar."
+      }
+    }
+  },"smile_gallery": {
+    "title": "Gülüş Galerimiz",
+    "words": {
+      "our": "Bizim",
+      "smile": "Gülüş",
+      "gallery": "Galeri"
+    }
+  },"half_screen_video": {
+    "title": "Kim Olduğumuz ve Ne İnandığımız",
+    "description": "Ekibimiz, güven, yenilik ve şefkat üzerine kurulu ortak bir felsefe ile olağanüstü bakım sağlamaya kendini adamıştır.",
+    "book_button": "RANDEVU ALIN"
+  },"footer": {
+    "clinic_hours": {
+      "title": "Klinik Saatleri",
+      "times": {
+        "monday": "Pazartesi, Salı, Perşembe: 08:30-20:00",
+        "wednesday": "Çarşamba: 08:30-18:30",
+        "friday": "Cuma: 09:00-15:00"
+      }
+    },
+    "our_clinic": {
+      "title": "Kliniğimiz",
+      "info": {
+        "address": "Skalitzer Straße 137, 10999 Berlin",
+        "phone": "030 69005528",
+        "email": "team@diedreizahnaerzte.berlin"
+      }
+    },
+    "clinic_image_alt": "Klinik prosedürü",
+    "qr_code_alt": "QR Kodu"
+  },
+  "new_full_screen_video": {
+    "heading": "Haydi diş sağlığınızı <br /> <span style='white-space: nowrap;'>öncelik yapalım!</span>",
+    "book_button": "Randevu Al",
+    "services_title": "Hizmetlerimiz",
+    "services_description": "Sizin ihtiyaçlarınızı anlıyor ve geniş bir hizmet yelpazesi sunuyoruz. Bizimle en iyi ellerdesiniz!"
+  },
+  "grid_hover": {
+    "items": {
+      "Anxiety Patients": "Kaygılı Hastalar",
+      "Oral Surgery": "Ağız Cerrahisi",
+      "Veneers": "Kaplamalar",
+      "Root Canal Treatment": "Kanal Tedavisi",
+      "Invisalign": "Şeffaf Plaklar"
+    }
+  },
+  "services_mobile": {
+    "items": {
+      "Surgery": "Cerrahi",
+      "Veneers": "Kaplamalar",
+      "Implantology": "İmplantoloji",
+      "Dentures": "Protez Dişler",
+      "Bleaching": "Diş Beyazlatma",
+      "Pediatric Dentistry": "Pedodonti (Çocuk Diş Hekimliği)"
+    }
+  },
+  "new_sticky_sections": {
+    "heading": "Uzmanlık Alanlarımız",
+    "items": {
+      "Next-Gen Dental Technology": "Yeni Nesil Diş Teknolojisi",
+      "Next-Gen Dental Technology_desc": "3D tarama, lazer diş hekimliği ve dijital görüntüleme gibi en son hizmetleri sunarak hassas, ağrısız ve etkili bir diş tedavisi sağlıyoruz.",
+      
+      "Hollywood Smile": "Hollywood Gülüşü",
+      "Hollywood Smile_desc": "Düzgün, parlak beyaz dişler. Veneerler, kronlar ve diş beyazlatma gibi gelişmiş tekniklerle, doğal ve çekici bir gülümseme yaratıyoruz – tam olarak ünlülerinki gibi!",
+      
+      "Smile Sparkle": "Parlayan Gülümseme",
+      "Smile Sparkle_desc": "Özel diş mücevherlerimizle gülümsemenize zarif bir dokunuş katın – hafif bir ışıltı ve benzersiz bir çekicilik sunar."
+    }
+  },
+  "new_doctors": {
+    "title": "Doktorlarımız",
+    "items": {
+      "fabian": {
+        "name": "Fabian Badour",
+        "description": "Fabian, cerrahi, implantoloji, protez ve ön diş estetiği alanlarında uzmandır. Diş hekimi korkusu olan hastalar için de tedavi sunmaktadır. Arapça, İngilizce ve Almanca dillerinde danışmanlık hizmeti vermektedir."
+      },
+      "hakam": {
+        "name": "Hakam El Daghma",
+        "description": "Hakam, mikroskobik kanal tedavisi, protez diş ve estetik diş hekimliği (veneers ve ön diş estetiği) konularında uzmanlaşmıştır. Almanca, İngilizce ve Arapça dillerinde danışmanlık sunmaktadır."
+      },
+      "prabh": {
+        "name": "Prabh Singh Mahal",
+        "description": "Prabh, cerrahi, implantoloji, protez diş ve ön diş estetiği alanlarında çalışmaktadır. Pencapça, Hintçe, Urduca, İngilizce ve Almanca dillerinde danışmanlık vermektedir."
+      }
+    }
+  },
+  "philosophy": {
+    "title": "Felsefemiz",
+    "quotes": {
+      "1": "Klinik uygulamamız, açıklık ve uzmanlığın ön planda olduğu özel bir diş deneyimi sunmaktadır.",
+      "2": "Kültürel çeşitliliğimiz ve sıcak atmosferimiz bizi özel kılar.",
+      "3": "Bizim için her hasta benzersizdir ve birlikte mükemmel sonuçlara ulaşırız.",
+      "4": "İletişim, güven ve diş sağlığına duyulan tutkuyla şekillenen, kişiye özel çözümler sunuyoruz."
+    }
+  },
+  "new_footer": {
+    "email": "E-posta",
+    "phone": "Telefon",
+    "address": "Adres",
+    "monday_thursday": "Pazartesi-Perşembe:",
+    "wednesday": "Çarşamba:",
+    "friday": "Cuma:",
+    "book_appointment": "Randevu Al",
+    "copyright": "Tüm hakları saklıdır."
+  }
+  
+  
+  }
+  

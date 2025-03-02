@@ -1,0 +1,171 @@
+{
+    "heading": "Let's make your <br /> dental health <br /> a priority!",
+    "book_appointment": "Book an Appointment",
+    "navbar": {
+        "home": "Home",
+        "services": "Services",
+        "team": "Team",
+        "appointment": "Appointment"
+      },
+      "services": {
+        "title": "Our Services",
+        "cards": {
+          "anxiety": "Anxiety Patients",
+          "surgery": "Oral Surgery",
+          "veneers": "Veneers",
+          "root_canal": "Root Canal Treatment",
+          "invisalign": "Invisalign"
+        }
+      },
+      "services-mobile": {
+        "title": "Our Services",
+        "cards": {
+          "anxiety": "Anxiety Patients",
+          "surgery": "Oral Surgery",
+          "veneers": "Veneers",
+          "root_canal": "Root Canal Treatment",
+          "invisalign": "Invisalign",
+          "invisalign2": "Invisalign"
+
+        }
+      },
+      "sticky_services": {
+    "sections": {
+      "elite_smile": {
+        "title": "Elite Smile Design",
+        "description": "Aligned, bright white teeth. Using advanced techniques like veneers, crowns, and teeth whitening, it creates a flawless, natural-looking smile that radiates confidence and charm—just like your favorite stars!"
+      },
+      "next_gen": {
+        "title": "Next-Gen Dental Technology",
+        "description": "We offer cutting-edge services like 3D scanning, laser dentistry, and digital imaging to ensure precise, painless, and efficient dental care tailored to your needs."
+      },
+      "smile_sparkle": {
+        "title": "Smile Sparkle",
+        "description": "Enhance your smile with a touch of elegance using our custom tooth jewels—designed to add a subtle sparkle and unique charm to your look."
+      }
+    }
+  },
+  "doctors": {
+    "title": "Our Doctors",
+    "subtitle": "Testimonials and Reviews",
+    "list": {
+      "fabian": {
+        "name": "Fabian Badour",
+        "description": "Fabian specializes in surgery, implantology, prosthetics, and front tooth aesthetics. He also treats anxious patients and offers consultations in Arabic, English, and German to ensure comprehensive care."
+      },
+      "hakam": {
+        "name": "Hakam El Daghma",
+        "description": "Hakam is an expert in various dental fields, including microscopic root canal treatment, prosthetics, and aesthetic dentistry for veneers and front tooth aesthetics. He provides compassionate care, especially for anxious patients, and speaks German, English, and Arabic."
+      },
+      "prabh": {
+        "name": "Prabh Singh Mahal",
+        "description": "Prabh specializes in surgery, implantology, prosthetics, and front tooth aesthetics. He also treats anxious patients and offers consultations in Punjabi, Hindi, Urdu, English, and German to provide well-rounded care."
+      }
+    }
+  },  "smile_gallery": {
+    "title": "Our Smile Gallery",
+    "words": {
+      "our": "Our",
+      "smile": "Smile",
+      "gallery": "Gallery"
+    }
+  },"half_screen_video": {
+    "title": "Who We Are & What We Believe",
+    "description": "Our team is dedicated to delivering exceptional care guided by a shared philosophy of trust, innovation, and compassion.",
+    "book_button": "BOOK AN APPOINTMENT"
+  },"footer": {
+    "clinic_hours": {
+      "title": "Clinic hours",
+      "times": {
+        "monday": "Monday, Tuesday, Thursday: 08:30-20:00",
+        "wednesday": "Wednesday: 08:30-18:30",
+        "friday": "Friday: 09:00-15:00"
+      }
+    },
+    "our_clinic": {
+      "title": "Our Clinic",
+      "info": {
+        "address": "Skalitzer Straße 137, 10999 Berlin",
+        "phone": "030 69005528",
+        "email": "team@diedreizahnaerzte.berlin"
+      }
+    },
+    "clinic_image_alt": "Clinic Procedure",
+    "qr_code_alt": "QR Code"
+  },
+  "new_full_screen_video": {
+    "heading": "Let's make your <br /> dental health <br /><span style='white-space: nowrap;'>a priority!</span>",
+    "book_button": "Book an Appointment",
+    "services_title": "Our Services",
+    "services_description": "We understand your needs and offer a wide range of services. You are in the best hands with us!"
+  },
+  "grid_hover": {
+    "items": {
+      "Anxiety Patients": "Anxiety Patients",
+      "Oral Surgery": "Oral Surgery",
+      "Veneers": "Veneers",
+      "Root Canal Treatment": "Root Canal Treatment",
+      "Invisalign": "Invisalign"
+    }
+  },
+  "services_mobile": {
+    "items": {
+      "Surgery": "Surgery",
+      "Veneers": "Veneers",
+      "Implantology": "Implantology",
+      "Dentures": "Dentures",
+      "Bleaching": "Bleaching",
+      "Pediatric Dentistry": "Pediatric Dentistry"
+    }
+  },
+  "new_sticky_sections": {
+    "heading": "Our Specialties",
+    "items": {
+      "Next-Gen Dental Technology": "Next-Gen Dental Technology",
+      "Next-Gen Dental Technology_desc": "We offer cutting-edge services like 3D scanning, laser dentistry, and digital imaging to ensure precise, painless, and efficient dental care tailored to your needs.",
+      
+      "Hollywood Smile": "Hollywood Smile",
+      "Hollywood Smile_desc": "Aligned, bright white teeth. Using advanced techniques like veneers, crowns, and teeth whitening, it creates a flawless, natural-looking smile that radiates confidence and charm—just like your favorite stars!",
+      
+      "Smile Sparkle": "Smile Sparkle",
+      "Smile Sparkle_desc": "Enhance your smile with a touch of elegance using our custom tooth jewels—designed to add a subtle sparkle and unique charm to your look."
+    }
+  },
+  "new_doctors": {
+    "title": "Our Doctors",
+    "items": {
+      "fabian": {
+        "name": "Fabian Badour",
+        "description": "Fabian specializes in surgery, implantology, prosthetics, and front tooth aesthetics. He also treats patients with dental anxiety. Fabian is available for consultations in Arabic, English, and German to provide comprehensive patient care."
+      },
+      "hakam": {
+        "name": "Hakam El Daghma",
+        "description": "Hakam specializes in microscopic root canal treatment, prosthetics, and aesthetic dentistry, including veneers and front tooth aesthetics. He provides compassionate care, particularly for anxious patients, and offers consultations in German, English, and Arabic."
+      },
+      "prabh": {
+        "name": "Prabh Singh Mahal",
+        "description": "Prabh focuses on surgery, implantology, prosthetics, and front tooth aesthetics. He also treats patients with dental anxiety. He provides consultations in Punjabi, Hindi, Urdu, English, and German."
+      }
+    }
+    
+  },
+  "philosophy": {
+    "title": "Our Philosophy",
+    "quotes": {
+      "1": "Our practice is all about a special dental experience, where openness and expertise are the focus.",
+      "2": "Our cultural diversity and warm atmosphere make us special.",
+      "3": "For us, every patient is unique, and together we achieve unbeatable results.",
+      "4": "We stand for tailor-made solutions, characterized by communication, trust, and a passion for dental health."
+    }
+  },
+  "new_footer": {
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "monday_thursday": "Monday-Thursday:",
+    "wednesday": "Wednesday:",
+    "friday": "Friday:",
+    "book_appointment": "Book an Appointment",
+    "copyright": "All rights reserved."
+  }
+}
