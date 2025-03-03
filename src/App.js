@@ -226,12 +226,14 @@ return (
 
   <div className="logo">
        {/* <Logo logoSrc="/Assets/Logo-white.png" altText="Company Logo" /> */}
-       <Logo logoSrc="/Assets/smile2.png" altText="Company Logo" />
+       <Logo logoSrc="/Assets/logo2.png" altText="Company Logo" />
   </div>
          {/* Landing Page Section */}
 <div id="landing-page">
          <NewFullScreenVideo2
-           videoSrc="/docs.mp4"
+          //  videoSrc="/docs.mp4"
+           video ="https://drive.google.com/uc?export=download&id=1FB4ikvWkwPwq8c5AcdWyeapGWAaN9G7n" 
+
            mobileVideoSrc="/vertical-intro.mp4"
            posterImage="https://via.placeholder.com/1920x1080"
            className="fullscreen-video"
