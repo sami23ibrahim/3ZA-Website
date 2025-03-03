@@ -910,11 +910,22 @@ const ServicesCards = () => {
   const scaleFactor = screenWidth / 1920;
 
   const cards = [
-    { title: t("services.cards.anxiety"), bg: "bg-[#0c2646]", img: "./Assets/smile2.png", video: "./Assets/smile.mp4", targetX: -500, targetY: -20, rotate: -6, zIndex: 10 },
-    { title: t("services.cards.surgery"), bg: "bg-[#f15a38]", img: "./Assets/vid.png", video: "./Assets/vid.mp4", targetX: -280, targetY: 170, rotate: -12, zIndex: 20 },
-    { title: t("services.cards.veneers"), bg: "bg-[#f496bf]", img: "./Assets/vid2.png", video: "./Assets/vid2.mp4", targetX: 30, targetY: -30, rotate: -6, zIndex: 30 },
-    { title: t("services.cards.root_canal"), bg: "bg-[#f68b1f]", img: "./Assets/vid3.png", video: "./Assets/vid3.mp4", targetX: 260, targetY: 250, rotate: 6, zIndex: 50 },
-    { title: t("services.cards.invisalign"), bg: "bg-[#422f40]", img: "./Assets/vid4.png", video: "./Assets/vid4.mp4", targetX: 490, targetY: 0, rotate: 3, zIndex: 40 },
+    // { title: t("services.cards.anxiety"), bg: "bg-[#0c2646]", img: "./Assets/smile2.png", video: "./Assets/smile.mp4", targetX: -500, targetY: -20, rotate: -6, zIndex: 10 },
+    // { title: t("services.cards.surgery"), bg: "bg-[#f15a38]", img: "./Assets/vid.png", video: "./Assets/vid.mp4", targetX: -280, targetY: 170, rotate: -12, zIndex: 20 },
+    // { title: t("services.cards.veneers"), bg: "bg-[#f496bf]", img: "./Assets/vid2.png", video: "https://res.cloudinary.com/dgx6edsad/video/upload/v1741028075/vid2_wyvmnj.mp4", targetX: 30, targetY: -30, rotate: -6, zIndex: 30 },
+    // { title: t("services.cards.root_canal"), bg: "bg-[#f68b1f]", img: "./Assets/vid3.png", video: "./Assets/vid3.mp4", targetX: 260, targetY: 250, rotate: 6, zIndex: 50 },
+    // { title: t("services.cards.invisalign"), bg: "bg-[#422f40]", img: "./Assets/vid4.png", video: "./Assets/vid4.mp4", targetX: 490, targetY: 0, rotate: 3, zIndex: 40 },
+  
+    { title: t("services.cards.anxiety"), bg: "bg-[#0c2646]", img: "./Assets/smile2.png", video: "https://res.cloudinary.com/dgx6edsad/video/upload/v1741028004/smile_iqqqjs.mp4", targetX: -500, targetY: -20, rotate: -6, zIndex: 10 },
+    { title: t("services.cards.surgery"), bg: "bg-[#f15a38]", img: "./Assets/vid.png", video: "https://res.cloudinary.com/dgx6edsad/video/upload/v1741028078/vid4_zzlyk8.mp4", targetX: -280, targetY: 170, rotate: -12, zIndex: 20 },
+    { title: t("services.cards.veneers"), bg: "bg-[#f496bf]", img: "./Assets/vid2.png", video: "https://res.cloudinary.com/dgx6edsad/video/upload/v1741028080/vid3_y4jdga.mp4", targetX: 30, targetY: -30, rotate: -6, zIndex: 30 },
+    { title: t("services.cards.root_canal"), bg: "bg-[#f68b1f]", img: "./Assets/vid3.png", video: "https://res.cloudinary.com/dgx6edsad/video/upload/v1741028004/smile_iqqqjs.mp4", targetX: 260, targetY: 250, rotate: 6, zIndex: 50 },
+    { title: t("services.cards.invisalign"), bg: "bg-[#422f40]", img: "./Assets/vid4.png", video: "https://res.cloudinary.com/dgx6edsad/video/upload/v1741028078/vid4_zzlyk8.mp4", targetX: 490, targetY: 0, rotate: 3, zIndex: 40 },
+  
+  
+  
+  
+  
   ].map(card => ({
     ...card,
     targetX: card.targetX * scaleFactor,
@@ -1000,3 +1011,190 @@ const ServicesCards = () => {
 };
 
 export default ServicesCards;
+
+
+
+// import React, { useState, useEffect } from "react";
+// import { useTranslation } from "react-i18next"; // Import translation hook
+
+// const ServicesCards = () => {
+//   const { t } = useTranslation(); // Get translation function
+//   const [hoveredIndex, setHoveredIndex] = useState(null);
+//   const [offset, setOffset] = useState({ x: 0, y: 0 });
+//   const [scrollProgress, setScrollProgress] = useState(0);
+//   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+//   useEffect(() => {
+//     const handleResize = () => setScreenWidth(window.innerWidth);
+//     window.addEventListener("resize", handleResize);
+//     return () => window.removeEventListener("resize", handleResize);
+//   }, []);
+
+//   const handleMouseMove = (e) => {
+//     const { innerWidth, innerHeight } = window;
+//     let xOffset = (e.clientX / innerWidth - 0.5) * 150;
+//     let yOffset = (e.clientY / innerHeight - 0.5) * 150;
+
+//     const MAX_OFFSET = 10;
+//     xOffset = Math.max(-MAX_OFFSET, Math.min(MAX_OFFSET, xOffset));
+//     yOffset = Math.max(-MAX_OFFSET, Math.min(MAX_OFFSET, yOffset));
+
+//     setOffset({ x: -xOffset, y: -yOffset });
+//   };
+
+//   useEffect(() => {
+//     const handleScroll = () => {
+//       const scrollY = window.scrollY;
+//       const windowHeight = window.innerHeight;
+//       const startPoint = windowHeight * 0.6;
+//       const endPoint = windowHeight * 0.7;
+//       const progress = Math.min(1, Math.max(0, (scrollY - startPoint) / (endPoint - startPoint)));
+//       setScrollProgress(progress);
+//     };
+
+//     window.addEventListener("scroll", handleScroll);
+//     return () => window.removeEventListener("scroll", handleScroll);
+//   }, []);
+
+//   const scaleFactor = screenWidth / 1920;
+
+//   const cards = [
+//     { 
+//       title: t("services.cards.anxiety"), 
+//       bg: "bg-[#0c2646]", 
+//       img: "./Assets/smile2.png", 
+//       video: " https://res.cloudinary.com/dgx6edsad/video/upload/v1741028004/smile_iqqqjs.mp4", 
+     
+//       targetX: -500, 
+//       targetY: -20, 
+//       rotate: -6, 
+//       zIndex: 10 
+//     },
+//     { 
+//       title: t("services.cards.surgery"), 
+//       bg: "bg-[#f15a38]", 
+//       img: "./Assets/vid.png", 
+//       video: "https://res.cloudinary.com/dgx6edsad/video/upload/v1741026275/docs_vvxs93.mp4", 
+//       targetX: -280, 
+//       targetY: 170, 
+//       rotate: -12, 
+//       zIndex: 20 
+//     },
+//     { 
+//       title: t("services.cards.veneers"), 
+//       bg: "bg-[#f496bf]", 
+//       img: "./Assets/vid2.png", 
+//       video: "https://res.cloudinary.com/dgx6edsad/video/upload/v1741028075/vid2_wyvmnj.mp4", 
+//       targetX: 30, 
+//       targetY: -30, 
+//       rotate: -6, 
+//       zIndex: 30 
+//     },
+//     { 
+//       title: t("services.cards.root_canal"), 
+//       bg: "bg-[#f68b1f]", 
+//       img: "./Assets/vid3.png", 
+//       video: "https://res.cloudinary.com/dgx6edsad/video/upload/v1741026275/vid3.mp4", 
+//       targetX: 260, 
+//       targetY: 250, 
+//       rotate: 6, 
+//       zIndex: 50 
+//     },
+//     { 
+//       title: t("services.cards.invisalign"), 
+//       bg: "bg-[#422f40]", 
+//       img: "./Assets/vid4.png", 
+//       video: "https://res.cloudinary.com/dgx6edsad/video/upload/v1741026275/docs_vvxs93.mp4", 
+//       targetX: 490, 
+//       targetY: 0, 
+//       rotate: 3, 
+//       zIndex: 40 
+//     }
+//   ].map(card => ({
+//     ...card,
+//     targetX: card.targetX * scaleFactor,
+//     targetY: card.targetY * scaleFactor,
+//   }));
+
+//   return (
+//     <div
+//       className={`relative flex flex-col justify-center items-center 
+//       bg-[#e8e2d4] overflow-hidden max-w-screen 
+//       ${screenWidth >= 1025 ? "min-h-[170vh]" : "min-h-screen"}`}
+//       onMouseMove={handleMouseMove}
+//     >
+//       <h1 className="absolute top-10 text-8xl font-bold text-[#422f40] text-center z-5 tracking-tighter">
+//         {t("services.title")}
+//       </h1>
+
+//       <div
+//         className="relative flex justify-center items-center transition-transform duration-500"
+//         style={{
+//           transform: `translate(${offset.x}px, ${offset.y}px)`,
+//           transition: "transform 0.1s ease-out",
+//         }}
+//       >
+//         {cards.map((card, index) => {
+//           const translateX = card.targetX * scrollProgress;
+//           const translateY = card.targetY * scrollProgress;
+//           const rotate = (1 - scrollProgress) * 10 + card.rotate;
+
+//           console.log(`Card ${index} Video URL:`, card.video); // Debug log
+
+//           return (
+//             <div
+//               key={index}
+//               onMouseEnter={() => setHoveredIndex(index)}
+//               onMouseLeave={() => setHoveredIndex(null)}
+//               className="absolute w-[30vw] md:w-[32vw] lg:w-[28vw] 
+//               h-[50vh] md:h-[65vh] lg:h-[85vh] 
+//               max-h-[calc(1.9_*_28vw)] md:max-h-[calc(1.9_*_32vw)] lg:max-h-[calc(1.6_*_28vw)] 
+//               rounded-2xl shadow-lg flex justify-center items-center transition-transform duration-500"
+//               style={{
+//                 zIndex: hoveredIndex === index ? 70 : card.zIndex,
+//                 transform: `translate(${translateX}px, ${translateY}px) rotate(${rotate}deg)`,
+//                 transition: "transform 0.6s ease-out, opacity 0.5s ease-in-out",
+//               }}
+//             >
+//               {/* Background */}
+//               <div
+//                 className={`absolute inset-0 ${card.bg} rounded-3xl transition-transform duration-500`}
+//                 style={{
+//                   transform: hoveredIndex === index ? "scale(1.03)" : "scale(1)",
+//                   transitionTimingFunction: "cubic-bezier(0.3, 2.5, 0.6, 1.8)",
+//                   transitionDuration: "500ms",
+//                 }}
+//               />
+
+//               {/* Card Content */}
+//               <div className="relative z-10 flex flex-col justify-between w-full h-full p-2">
+//                 <h2 className="p-2 font-bold text-sm md:text-4xl text-white">{card.title}</h2>
+//                 <div className="relative w-full h-[70%] overflow-hidden rounded-lg">
+//                   {hoveredIndex === index ? (
+//                     <video
+//                       src={card.video}
+//                       className="absolute inset-0 w-full h-full object-cover rounded-3xl"
+//                       muted
+//                       loop
+//                       autoPlay
+//                       playsInline
+//                       controls
+//                     />
+//                   ) : (
+//                     <img
+//                       src={card.img}
+//                       alt={card.title}
+//                       className="absolute inset-0 w-full h-full object-cover rounded-3xl"
+//                     />
+//                   )}
+//                 </div>
+//               </div>
+//             </div>
+//           );
+//         })}
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default ServicesCards;

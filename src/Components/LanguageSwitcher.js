@@ -87,7 +87,7 @@ const LanguageSwitcher = () => {
   const languages = [
     { code: "en", label: "EN", flag: "/Assets/en.png" },
     { code: "de", label: "DE", flag: "/Assets/de.png" },
-    { code: "ar", label: "AR", flag: "/Assets/ar.png" },
+    { code: "ar", label: "AR", flag: "/Assets/pala.jpg" },
     { code: "tur", label: "TR", flag: "/Assets/tr.png" },
   ];
 

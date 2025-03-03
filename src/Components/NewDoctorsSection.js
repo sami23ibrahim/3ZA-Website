@@ -169,6 +169,94 @@
 
 
 
+// import React, { useEffect, useRef } from "react";
+// import { motion, useAnimation } from "framer-motion";
+// import { useTranslation } from "react-i18next"; // Import translation hook
+
+// const NewDoctorsSection = () => {
+//   const { t, i18n } = useTranslation(); // Get translation function
+//   const controls = useAnimation();
+//   const ref = useRef(null);
+
+//   useEffect(() => {
+//     const observer = new IntersectionObserver(
+//       ([entry]) => {
+//         if (entry.isIntersecting) {
+//           controls.start({ opacity: 1, y: 0 });
+//         }
+//       },
+//       { threshold: 0.3 }
+//     );
+//     if (ref.current) {
+//       observer.observe(ref.current);
+//     }
+//     return () => observer.disconnect();
+//   }, [controls]);
+
+//   const doctors = [
+//     {
+//       id: "fabian",
+//       image: "./Assets/fab.png",
+//     },
+//     {
+//       id: "hakam",
+//       image: "./Assets/hak.png",
+//     },
+//     {
+//       id: "prabh",
+//       image: "./Assets/prab.png",
+//     },
+//   ];
+
+//   return (
+//     <section ref={ref} className="bg-[#e8e2d4] text-[#422f40] py-12 px-6">
+//       <div className="max-w-full text-start ml-2">
+//         <h2 className="text-[#422f40] text-7xl font-bold text-center tracking-tighter pb-8">
+//           {t("doctors.title")}
+//         </h2>
+//       </div>
+
+//       <motion.div
+//         initial={{ opacity: 0, y: 50 }}
+//         animate={controls}
+//         transition={{ duration: 2.1 }}
+//         className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-12 items-start"
+//       >
+//         {doctors.map((doctor) => (
+//           <div key={doctor.id} className="flex flex-col items-center w-full max-w-sm mx-auto h-full">
+//             <img
+//               src={doctor.image}
+//               alt={t(`new_doctors.items.${doctor.id}.name`)}
+//               className="rounded-3xl w-52 h-52 object-cover mt-0 mb-0"
+//               style={{ boxShadow: "6px 6px 10px rgba(0, 0, 0, 0.5)" }}
+//             />
+
+//             <div className="text-left w-full flex items-end justify-center min-h-[80px]">
+//               <h3
+//                 className="text-4xl font-bold mt-0 tracking-tighter text-[#422f40]"
+//                 style={{
+//                   fontSize: i18n.language === "de" ? "1.7rem" : "2rem", // Adjust German text size
+//                 }}
+//               >
+//                 {t(`new_doctors.items.${doctor.id}.name`)}
+//               </h3>
+//             </div>
+//             <div className="text-left flex-1">
+//               <p className="text-[#422f40] text-lg font-base leading-tight mt-2">
+//                 {t(`new_doctors.items.${doctor.id}.description`)}
+//               </p>
+//             </div>
+//           </div>
+//         ))}
+//       </motion.div>
+//     </section>
+//   );
+// };
+
+// export default NewDoctorsSection;
+
+
+
 import React, { useEffect, useRef } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useTranslation } from "react-i18next"; // Import translation hook
@@ -211,7 +299,13 @@ const NewDoctorsSection = () => {
   return (
     <section ref={ref} className="bg-[#e8e2d4] text-[#422f40] py-12 px-6">
       <div className="max-w-full text-start ml-2">
-        <h2 className="text-[#422f40] text-7xl font-bold text-center tracking-tighter pb-8">
+        {/* 🔹 Apply Smaller Font for Turkish (`tr`) */}
+        <h2
+          className="text-[#422f40] font-bold text-center tracking-tighter pb-8"
+          style={{
+            fontSize: i18n.language === "tr" ? "3rem" : "4rem",
+          }}
+        >
           {t("doctors.title")}
         </h2>
       </div>
@@ -235,7 +329,7 @@ const NewDoctorsSection = () => {
               <h3
                 className="text-4xl font-bold mt-0 tracking-tighter text-[#422f40]"
                 style={{
-                  fontSize: i18n.language === "de" ? "1.7rem" : "2rem", // Adjust German text size
+                  fontSize: i18n.language === "de" ? "1.5rem" : "2rem", // Adjust German text size
                 }}
               >
                 {t(`new_doctors.items.${doctor.id}.name`)}

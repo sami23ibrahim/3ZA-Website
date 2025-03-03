@@ -226,15 +226,17 @@ return (
 
   <div className="logo">
        {/* <Logo logoSrc="/Assets/Logo-white.png" altText="Company Logo" /> */}
-       <Logo logoSrc="/Assets/tree.png" altText="Company Logo" />
+       {/* <Logo logoSrc="/Assets/logo2.png" altText="Company Logo" /> */}
+       <Logo logoSrc="https://res.cloudinary.com/dgx6edsad/image/upload/v1741028146/logo2_xh0mbg.png" altText="Company Logo" />
+
   </div>
          {/* Landing Page Section */}
 <div id="landing-page">
          <NewFullScreenVideo2
           //  videoSrc="/docs.mp4"
-           video ="https://drive.google.com/uc?export=download&id=1FB4ikvWkwPwq8c5AcdWyeapGWAaN9G7n" 
-
-           mobileVideoSrc="/vertical-intro.mp4"
+         videoSrc ="https://res.cloudinary.com/dgx6edsad/video/upload/v1741026275/docs_vvxs93.mp4" 
+         mobileVideoSrc="https://res.cloudinary.com/dgx6edsad/video/upload/v1741027661/vertical-intro_wqelia.mp4"
+           //mobileVideoSrc="/vertical-intro.mp4"
            posterImage="https://via.placeholder.com/1920x1080"
            className="fullscreen-video"
          />

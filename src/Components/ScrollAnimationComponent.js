@@ -684,7 +684,7 @@ const ScrollAnimationComponent = () => {
               </h1>
             ) : (
               <div key={idx} 
-                className="bg-[#E8DCC6] rounded-xl overflow-hidden flex-none group transition-transform duration-300 hover:scale-120 
+                className="bg-[#E8DCC6] rounded-xl overflow-hidden flex-none group transition-transform duration-300 hover:scale-110 
                 w-[160px] h-[100px] sm:w-[210px] sm:h-[100px] lg:w-[310px] lg:h-[135px]">
                 <img src={img} alt={`Image ${idx + 1}`} className="w-full h-full object-cover" />
               </div>
@@ -718,7 +718,7 @@ const ScrollAnimationComponent = () => {
               </h1>
             ) : (
               <div key={idx} 
-                className="bg-[#E8DCC6] rounded-xl overflow-hidden flex-none group transition-transform duration-300 hover:scale-120 
+                className="bg-[#E8DCC6] rounded-xl overflow-hidden flex-none group transition-transform duration-300 hover:scale-110 
                 w-[160px] h-[100px] sm:w-[210px] sm:h-[100px] lg:w-[310px] lg:h-[135px]">
                 <img src={img} alt={`Image ${idx + 1}`} className="w-full h-full object-cover" />
               </div>
