@@ -226,7 +226,7 @@ return (
 
   <div className="logo">
        {/* <Logo logoSrc="/Assets/Logo-white.png" altText="Company Logo" /> */}
-       <Logo logoSrc="/Assets/logo2.png" altText="Company Logo" />
+       <Logo logoSrc="/Assets/tree.png" altText="Company Logo" />
   </div>
          {/* Landing Page Section */}
 <div id="landing-page">
